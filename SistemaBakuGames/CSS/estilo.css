@@ -1,0 +1,566 @@
+* {box-sizing: border-box;}
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+body { 
+    
+    width: 100%;
+    max-width: 1920px;
+    margin: 0 auto;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    background-color:  rgba(23, 84, 176, 0.1);
+}
+.site{
+    width: 100%;
+    max-width: 1140px;
+    margin: 0 auto;
+    background-color: rgba(23, 84, 176, 0.1);
+}
+
+.header {
+   
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+    background-color: black;
+    padding: 10px;
+    /*background: url("../Banners/gowbanner.png");
+    background-size: 100% 100%;
+    */
+    height: 220px;
+
+}
+.mainHeader{
+width: 100%;
+}
+
+.header a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px; 
+  line-height: 25px;
+  border-radius: 4px;
+  margin-bottom: 80px;
+}
+
+.header h1 {
+    cursor: pointer;
+  background: url(../Icons/logov2.png) no-repeat;
+
+    width: 546px;
+    height: 515px;
+    margin-left: 20px;
+    margin-top: 300px;
+
+    text-indent:-9999px;
+    
+}
+
+.header a:hover {
+    text-decoration: none;
+  background-color: cornflowerblue;
+  
+}
+
+
+.header-right {
+  float: right;
+  margin-top: -55px;
+}
+
+.carrinho    {
+    cursor: pointer;
+    float:right;
+    display: flex;
+    text-decoration: none;
+    margin-top: -80px;
+    margin-right: 80px;
+    font-size: 20px;
+
+   border: 1px solid #186fc8;
+    margin-left: 10px;
+    position: relative;
+    
+    padding: 0 25px;
+    height: 52px
+    
+}
+.carrinho span {
+        cursor: pointer;
+     text-decoration: none;
+    color: white;
+    
+}
+
+.carrinho p {
+   color: white;
+    margin-left: 15px;
+    margin-top: 12px;
+    
+}
+.carrinho h1{
+    color: blue;
+     margin-left: 20px;
+    margin-top: 8px;
+}
+
+form.pesquisa input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 80%;
+    background: #f1f1f1;
+    margin-top: -80px;
+}
+
+form.pesquisa button {
+    float: right;
+    width: 20%;
+    padding: 10px;
+    background: #2196F3;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+    margin-top: -80px;
+    
+}
+
+
+form.pesquisa::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+   
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+}
+
+
+ /* BANNER */
+.banner img{
+    width: 1140px;
+    max-width: 100%;
+    margin-top: -15px;
+    margin-left: 0px;
+    top:0;
+    margin-bottom: 10px;
+    box-shadow: 0px 1.5px 8px 7px rgba(0,0,0,0.33);
+}
+
+
+
+
+.menu{
+    width: 100%;
+    background-color: #191970;
+    padding: 5px 10px;
+    margin-bottom: 0; 
+    overflow: hidden;
+    align-content: center;    
+}
+
+.menu li {
+    float: left;
+    border-bottom:  solid;
+    border-color: #BBFF07;
+    border-width: 1.5px;
+    margin-right: 60px;
+    position: relative;
+    left: 100px;
+    
+}
+
+.menu li a {
+      font-family: 'Montserrat', sans-serif;
+    display: flex;
+    font-size: 18px;
+    margin-left: 95px;
+    text-align: center;
+    justify-content: space-between;
+    padding: 15px 0px;
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    
+}
+
+.menu li a:hover {
+    text-decoration: none;
+    border-radius: 8px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 60px;
+}
+
+.carousel-inner{
+    background-color: black;
+    cursor: pointer;
+}
+
+.produtos{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.produtos article p{
+    text-align: justify;
+    font-size: 1.2em;
+    line-height: 1.8em;
+      font-family: 'Montserrat', sans-serif;
+
+}
+
+.produtos article a{
+    display: flex;
+    margin: 0;
+    margin-right: 30px;
+    margin-left: 30px;
+    text-decoration: none;
+    align-items: center;
+  justify-content: center;
+    padding: 2%;
+    background-color: blue;
+    color: #FFF;
+    font-size: 1.4em;
+    border-radius: 4px;
+}
+.produtos article h4{
+    font-size: 1.8em;
+    text-align: center;
+
+    color: blue;
+    font-family:  "Exo 2";
+    
+} 
+
+.produtos article a:hover{
+    background: #333;
+    color: #F23855;
+}
+
+.produtos article img{
+    width: 40%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom-right-radius: 5%;
+    border-top-left-radius: 5%;
+    border: solid 1px #000;
+    cursor: pointer;
+}
+
+.linhazinha{
+    margin-bottom: 0;
+    border: solid black 1px;
+    margin-top: 0
+    
+}
+.linhazinha2{
+    margin-bottom: 0;
+    border: solid black 1px;
+    margin-top: 0;
+    width: 1139px;
+    
+    
+}
+
+.container{
+   
+    margin-top: 0;
+}
+.item img{
+    width: 100%;
+}
+.conteudoProdutos{
+
+background: #fff;
+
+width: 1140px;
+height: auto;
+margin: 0 auto;
+
+}
+
+.produtos article{
+    
+    width: 23.5%;
+    margin: 1%;
+    margin-top: 5%;
+    cursor: pointer;
+    min-width: 250px;
+    border-right: 1px dashed black;
+    border-left: 1px dashed black;
+}
+
+
+.produtos article:nth-child(4n){
+  margin-right: 0; 
+}
+.produtos article:nth-child(4n+1){
+  margin-left: 0; 
+}
+
+.produtos article h3{
+    font-size: 1.5em;
+    margin-top: 2%;
+      font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+.produtos article h2{
+    font-size: 1.5em;
+    margin-top: 2%;
+  font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+.rating {
+  unicode-bidi: bidi-override;
+  direction: rtl;
+  text-align: center;
+}
+.rating > span {
+  display: inline-block;
+  position: relative;
+  width: 1.8em;
+}
+.rating > span:hover,
+.rating > span:hover ~ span {
+  color: transparent;
+}
+.rating > span:hover:before,
+.rating > span:hover ~ span:before {
+   content: "\2605";
+   position: absolute;
+   left: 0; 
+   color: gold;
+}
+
+/* Footer*/
+
+
+#footer {
+  background: #15161D;
+  color: #B9BABC;
+}
+
+#bottom-footer {
+  background: #1E1F29;
+}
+
+.footer {
+  margin: 30px 0px;
+}
+
+.footer .footer-title {
+  color: #FFF;
+  text-transform: uppercase;
+  font-size: 18px;
+  margin: 0px 0px 30px;
+}
+
+.footer-links li+li {
+  margin-top: 15px;
+}
+
+.footer-links li a {
+  color: #B9BABC;
+}
+
+.footer-links li i {
+  margin-right: 15px;
+  color: #D10024;
+  width: 14px;
+  text-align: center;
+}
+
+.footer-links li a:hover {
+  color: #D10024;
+}
+
+.copyright {
+  margin-top: 30px;
+  display: block;
+  font-size: 12px;
+}
+
+.footer-payments li {
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.footer-payments li a {
+  color: #15161D;
+  font-size: 36px;
+  display: block;
+}
+
+#footer section{
+    max-width: 100%;
+}
+
+
+            /*  MENU LATERAL*/
+
+
+
+
+
+/*=========================================================
+	10 -> NEWSLETTER
+===========================================================*/
+
+#newsletter.section {
+  border-top: 2px solid #E4E7ED;
+  border-bottom: 3px solid #D10024;
+  margin-top: 30px;
+}
+
+.newsletter {
+  text-align: center;
+}
+
+.newsletter p {
+  font-size: 24px;
+}
+
+.newsletter form {
+  position: relative;
+  max-width: 520px;
+  margin: 30px auto;
+}
+
+.newsletter form:after {
+  content: "\f003";
+  font-family: FontAwesome;
+  position: absolute;
+  font-size: 160px;
+  color: #E4E7ED;
+  top: 15px;
+  -webkit-transform: translateY(-50%) rotate(15deg);
+  -ms-transform: translateY(-50%) rotate(15deg);
+  transform: translateY(-50%) rotate(15deg);
+  z-index: -1;
+  left: -90px;
+}
+
+.newsletter form .input {
+  width: calc(100% - 160px);
+  margin-right: -4px;
+  border-radius: 40px 0px 0px 40px;
+}
+
+.newsletter form .newsletter-btn {
+  width: 160px;
+  height: 40px;
+  font-weight: 700;
+  background: #D10024;
+  color: #FFF;
+  border: none;
+  border-radius: 0px 40px 40px 0px;
+}
+
+.newsletter .newsletter-follow {
+  text-align: center;
+}
+
+.newsletter .newsletter-follow li {
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.newsletter .newsletter-follow li:last-child {
+  margin-right: 0px;
+}
+
+.newsletter .newsletter-follow li a {
+  position: relative;
+  display: block;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  border: 1px solid #E4E7ED;
+  background-color: #FFF;
+  -webkit-transition: 0.2s all;
+  transition: 0.2s all;
+}
+
+.newsletter .newsletter-follow li a:hover, .newsletter .newsletter-follow li a:focus {
+  background-color: #E4E7ED;
+  color: #D10024;
+}
+
+
+  
+
+
+
+/*
+
+*/
+
+
+
+/*
+
+
+
+             <div class="container">
+
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+      <div class="item active">
+      <img src="Banners/ImagensTratadas/bf5tratado.png" alt="Los Angeles" style="width:100%">
+      </div>
+
+      <div class="item">
+        <img src="Banners/ImagensTratadas/kh3tratado.png" alt="Los Angeles" style="width:100%">
+      </div>
+    
+      <div class="item">
+       <img src="Banners/ImagensTratadas/lfstratado.png" alt="Los Angeles" style="width:100%">
+      </div>
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
