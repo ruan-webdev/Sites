@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito|Spirax|Titillium+Web');
+
+/* 
+    font-family: 'Titillium Web', sans-serif;
+    font-family: 'Spirax', cursive;
+    font-family: 'Nunito', sans-serif;
+
+*/
+body{
+    background-color: #224D74;
+    font-size: 12px;
+}
+
+.site{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.cabecalho{
+    background-color: #2F353D;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px;
+}
+.cabecalho h1{
+    background: url(../img/logo.png);
+    width: 200px;
+    height: 113px;
+    display: block;
+    text-indent:-9999px;
+}
+
+.cabecalho nav{
+   
+}
+
+.cabecalho nav ul{
+    display: flex;
+    
+}
+
+.cabecalho nav ul li{
+    display: block;
+}
+
+.cabecalho nav ul li a{
+    cursor: pointer;
+    padding: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1em;
+    color: white;
+    text-align: center;
+    font-family: 'Rubik One,Titillium Web' ;
+
+ 
+}
+.cabecalho nav ul li a:hover{
+    color: #FFF;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.5);
+}
+
+
+
+.banner img{
+    max-width: 12%;
+    height: auto;
+    position: absolute;
+    top: 50px;
+    left: 145px;
+    
+}
+
+div.sub-menu{
+ 
+  width: 70%;
+    height: 55px;
+   
+}
+
+.botao {
+
+    background-color:#008CBA;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+.botao:hover {
+    background-color: blue;
+}
+
+.menus h1{
+position: absolute;
+width: 401px;
+height: 44px;
+left: 185px;
+top: 458px;
+font-family: Rubik One;
+font-style: normal;
+font-weight: normal;
+line-height: normal;
+font-size: 48px;
+color: #FFFFFF;
+text-shadow:
+       -1px -1px 0 #000,  
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000;
+
+
+  
+}
+.conteudo{
+ content: "";
+    clear: both;
+    display: flex;
+}
+
+.imagens{
+    cursor: pointer;
+    transition: transform .2s;
+    margin-top: 35px;
+    float: left;
+    width: 35%;
+    padding: 40px;
+    max-width: 100%;
+    height: auto;
+    border-radius: 18px;
+}
+.imagens:hover{
+     -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5); 
+}
+.user img{
+    width: 70px;
+    height: auto;
+    right: 80px;
+    max-width: 100%;
+    border-radius: 50%;
+    
+}
+.conteudo2{
+ content: "";
+    clear: both;
+    display: flex;
+}
+.imagens2{
+    cursor: pointer;
+    transition: transform .2s;
+    margin-top: 85px;
+    float: left;
+    width: 35%;
+    padding: 40px;
+    max-width: 100%;
+    height: auto;
+    border-radius: 18px;
+}
+.menus1 h1{
+width: 601px;
+height: 84px;
+left: 185px;
+top: 795px;
+position: absolute;
+font-family: Rubik One; 
+font-style: normal;
+font-weight: normal;
+line-height: normal;
+font-size: 48px;
+
+color: #FFFFFF;
+border-color: #000000;
+text-shadow:
+       -1px -1px 0 #000,  
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000;
+
+}
+.imagens2:hover{
+     -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5); 
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+
+    display: none;
+    position: absolute;
+    background-color: #00A3D6;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown-content a:hover {}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: inline-block;
+}
+.rodape{
+    text-align: center;
+    background: #333;
+    padding: 0.8% 0;
+}
+
+.rodape p{
+    color: #fff;
+    font-size: 1em;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.rodape article a{
+    margin: 15px;
+}
+.todos{
+    background-color:red;
+    border: none;
+    color: white;
+    padding: 1px 25px;
+    margin-left: 1075px;
+
+    margin-top: -208px;
+    text-align: center;
+    text-decoration: none;
+   
+    font-size: 16px;
+    cursor: pointer;
+}
+.todos1{
+    background-color:red;
+    border: none;
+    color: white;
+    padding: 1px 25px;
+    margin-left: 1075px;
+
+    margin-top: -208px;
+    text-align: center;
+    text-decoration: none;
+   
+    font-size: 16px;
+    cursor: pointer;
+}
+
+
+
+
